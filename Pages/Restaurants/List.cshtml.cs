@@ -34,7 +34,7 @@ namespace OdeToFood.Pages.Restaurants
 
         public void OnGet()
         {
-            Message = _config["Messages"];
+            Message = _config["Message"];
             Restaurants = _restaurantData.GetAll();
         }
     }
